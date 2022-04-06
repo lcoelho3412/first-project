@@ -1,13 +1,22 @@
-body {  
-      background-color: rgb(253, 251, 251);
-    }
-    
-    h1#cabecalho {
-      font-family: 'Courier New', 'Courier', monospace;
-      position: fixed;
-      top: 0px;
-      border: 1px solid green;
-    }
-    
-    img#minha_imagem {
-      border: 1px solid green;}
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+header {
+  font-family: 'Courier New', Courier, monospace;
+  position: fixed;
+  top: 0;
+  border: 1px solid green;
+}
+
+#minha_foto {
+  width: fit-content;
+}
+
+#licoes_aprendidas {
+  border: 1px solid green;
+}
+
+#licoes_a_aprender {
+  border: 1px solid green;
+}
