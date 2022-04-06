@@ -3,8 +3,8 @@ body {
 }
 
 header {
-  font-family: 'Courier New', Courier, monospace;
-  position: fixed;
+  font-family: Courier New, Courier, monospace;
+  position: top;
   top: 0;
   border: 1px solid green;
 }
@@ -19,4 +19,8 @@ header {
 
 #licoes_a_aprender {
   border: 1px solid green;
+}
+
+#rodape {
+  font-size: xx-small;
 }
