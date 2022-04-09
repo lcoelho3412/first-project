@@ -2,15 +2,26 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-header {
-  font-family: Courier New, Courier, monospace;
-  position: top;
+#cabecalho  {
+  position: fixed;
   top: 0;
+  border: 1px solid green;
+  padding: 20px;
+}
+/* 
+#titulo h1 {
+  position: fixed;
+  top: 0;
+  border: 1px solid green; */
+}
+
+#links {
   border: 1px solid green;
 }
 
 #minha_foto {
-  width: fit-content;
+  width: 200px;
+  border: 1px solid green
 }
 
 #licoes_aprendidas {
@@ -23,4 +34,5 @@ header {
 
 #rodape {
   font-size: xx-small;
+  border: 1px solid green;
 }
