@@ -35,9 +35,7 @@ body {
   border: 1px solid green;
 }
 
-table,
-th,
-td {
+table , th , td {
   border: 1px solid black;
   width: 100%;
 }
@@ -50,6 +48,17 @@ td {
   float: left;
 }
 
-#artigo_secao {
-  
+.column {
+  float: left;
+  width: 30%;
+  padding: 3%;
+  border: 1px solid purple;
+  margin: 10px;
 }
+
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  border: 1px solid red;
+} */
