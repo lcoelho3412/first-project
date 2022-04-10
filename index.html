@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,19 @@
   <title>Lessons learned</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
   <!-- Seção header -->
-    <header id="cabecalho">
-        <h1 id="titulo"> Trybe</h1>
-    </header>
-    <!-- link de navegação -->
-    <!-- Corpo da página -->
-    <main id="content">
-      <section>
-        <img id="minha_foto" src="lesson-learned.jpg" alt="meme">
-      </section>
+  <header id="cabecalho">
+    <h1 id="titulo"> Trybe</h1>
+  </header>
+  <!-- link de navegação -->
+  <!-- Corpo da página -->
+  <main id="content">
+    <section>
+      <img id="minha_foto" src="lesson-learned.jpg" alt="meme">
+    </section>
+    <div id="box_model">
       <section>
         <ol id="licoes_aprendidas">
           <li> Unix</li>
@@ -46,11 +49,13 @@
           <li>Scrum</li>
         </ul>
       </section>
+    </div>
+    <section id="artigo_secao">
       <article>
         <p>
           Dado o fluxo de dados atual, a otimização de performance da renderização
-          do DOM superou o desempenho de uma configuração Webpack eficiente 
-          nos builds. Com este commit, o deploy automatizado no Heroku causou a race condition 
+          do DOM superou o desempenho de uma configuração Webpack eficiente
+          nos builds. Com este commit, o deploy automatizado no Heroku causou a race condition
           de compilação multi-plataforma de forma asincrona.
         </p>
       </article>
@@ -61,34 +66,36 @@
           de forma asincrona.
         </p>
       </aside>
-      <div>
-        <h2>A basic HTML table</h2>
+    </section>
+    <div>
 
-<table id="table">
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-</table>
-      </div>
-    </main>
-    <!--  seção do footer -->
-    <footer id="rodape">
-      <p>Todos os textos foram gerados a partir do Gerador de Lero Lero</p>
-    </footer>
-    <nav id="links">
-      <a href="https://www.google.com.br/" target="_blank">Google</a>
-    </nav>
-  </body>
-  </html>
+      <h2>A basic table</h2>
+      <table id="table">
+        <tr>
+          <th>Lorem, ipsum dolor.</th>
+          <th>Lorem, ipsum.</th>
+          <th>Lorem, ipsum.</th>
+        </tr>
+        <tr>
+          <td>Lorem ipsum dolor sit.</td>
+          <td>Lorem ipsum dolor sit.</td>
+          <td>Lorem, ipsum.</td>
+        </tr>
+        <tr>
+          <td>Lorem ipsum dolor sit amet consectetur.</td>
+          <td>Lorem, ipsum dolor.</td>
+          <td>Lorem.</td>
+        </tr>
+      </table>
+    </div>
+  </main>
+  <!--  seção do footer -->
+  <footer id="rodape">
+    <p>Todos os textos foram gerados a partir do Gerador de Lero Lero</p>
+  </footer>
+  <nav id="links">
+    <a href="https://www.google.com.br/" target="_blank">Google</a>
+  </nav>
+</body>
+
+</html>

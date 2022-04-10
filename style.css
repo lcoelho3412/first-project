@@ -1,10 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier New, Courier, monospace;
   font-size: 1em;
   color: rgb(5, 5, 5);
   line-height: 20px;
-
 }
 
 #cabecalho {
@@ -17,9 +16,10 @@ body {
 #links {
   border: 1px solid green;
 }
+
 #minha_foto {
   width: 200px;
-  border: 1px solid green
+  border: 1px solid green;
 }
 
 #licoes_aprendidas {
@@ -35,7 +35,21 @@ body {
   border: 1px solid green;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid black;
-  width: 100%
+  width: 100%;
+}
+
+#box_model {
+  width: 100%;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  float: left;
+}
+
+#artigo_secao {
+  
 }
