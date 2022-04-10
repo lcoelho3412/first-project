@@ -1,5 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1em;
+  color: rgb(5, 5, 5);
+  line-height: 20px;
+
 }
 
 #cabecalho {
@@ -12,7 +17,6 @@ body {
 #links {
   border: 1px solid green;
 }
-
 #minha_foto {
   width: 200px;
   border: 1px solid green
@@ -29,4 +33,9 @@ body {
 #rodape {
   font-size: xx-small;
   border: 1px solid green;
+}
+
+table, th, td {
+  border: 1px solid black;
+  width: 100%
 }
